@@ -7491,3 +7491,8 @@ svg.bd-placeholder-img rect {
    [data-bs-theme="dark"]  .card {
     background-color: var(--bs-card-bg)!important;
    }
+[data-bs-theme="dark"] .carousel a.btn.btn-lg.btn-primary {
+    color: #ffffff;
+    background-color: #306e7d;
+    border-color: #ffffff9c;
+}
