@@ -324,18 +324,20 @@ We help develop strategic direction and technology to deliver objectives and max
     <p class="mb-1">Album example is © Bootstrap, but please download and customize it for yourself!</p>
     <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
   </div>
-</footer><script>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
   jQuery(document).ready(function ($) {
 			  $(".navbar-toggler").on("click", function () {
 
 				    $(this).toggleClass("active");
 			  });
 		});
+  });
 </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-
     
 
 
