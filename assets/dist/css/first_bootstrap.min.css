@@ -7478,3 +7478,7 @@ button.navbar-toggler.active {
 svg.bd-placeholder-img rect {
     fill: #306e7d;
 }
+.text-bg-dark {
+    color: #fff!important;
+    background-color: RGBA(var(--bs-dark-rgb),var(--bs-bg-opacity,1))!important;
+}
