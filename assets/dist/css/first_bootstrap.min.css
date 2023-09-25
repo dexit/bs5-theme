@@ -7479,7 +7479,8 @@ svg.bd-placeholder-img rect {
     fill: #306e7d;
 }
 
-  [data-bs-theme="dark"] .text-bg-dark {
+  [data-bs-theme="dark"] .text-bg-dark,
+  [data-bs-theme="dark"] #navbarHeader {
     color: #fff!important;
     background-color: RGBA(var(--bs-purple),var(--bs-bg-opacity,1))!important;
 }
