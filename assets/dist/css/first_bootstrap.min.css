@@ -7475,3 +7475,6 @@ button.navbar-toggler.active {
     flex-wrap: wrap;
     align-content: center;
 }
+svg.bd-placeholder-img rect {
+    fill: #306e7d;
+}
