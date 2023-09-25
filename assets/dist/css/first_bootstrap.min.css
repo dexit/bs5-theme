@@ -7499,3 +7499,7 @@ svg.bd-placeholder-img rect {
 div#myCarousel {
     background-color: #306e7d!important;
 }
+[data-bs-theme="light"] .text-bg-dark, [data-bs-theme="light"] #navbarHeader {
+    background-color: #306e7d!important;
+    opacity: 0.9;
+}
