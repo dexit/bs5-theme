@@ -7350,69 +7350,7 @@ header[data-bs-theme="dark"] {
 .bd-mode-toggle {
   z-index: 1500;
 }
-.navbar-dark .navbar-toggler {
-    color: aliceblue;
-    border-color: rgba(255, 255, 255, 0.1);
-    height: 44px;
-    width: 48px!important;
-}
-button.navbar-toggler {
-    display: block !important;
-    width: 22px !important;
-    /* height: 2px !important; */
-    border-radius: 1px !important;
-    /* background: #fff; */
-    margin: 4px 0px!important;
-}
-.navbar-toggler.active .icon-bar:nth-of-type(1) {
-    top: 2px;
-    transform: rotate(45deg);
-}
-.navbar-toggler.active .icon-bar:nth-of-type(2) {
-    background-color: transparent;
-}
-.navbar-toggler.active .icon-bar:nth-of-type(3) {
-    top: -2px;
-    transform: rotate(-45deg);
-}
-button.navbar-toggler.active .icon-bar {
-    margin: 0 !important;
-}
-/* Navbar */
-.navbar-toggler .icon-bar:nth-of-type(2) {
-  top: 2px!important;
-}
 
-.navbar-toggler .icon-bar:nth-of-type(3) {
-  top: 2px!important;
-}
-
-.navbar-toggler .icon-bar {
-  position: relative;
-  transition: all 500ms ease-in-out;
-  display: block !important;
-  width: 22px!important;
-  height: 2px !important;
-  border-radius: 1px !important;
-  background: #fff;
-  margin-bottom: 5px;
-}
-
-.navbar-toggler.active .icon-bar:nth-of-type(1) {
-  top: 3px;
-  transform: rotate(45deg);
-}
-
-.navbar-toggler.active .icon-bar:nth-of-type(2) {
-  background-color: transparent;
-}
-.navbar-toggler .icon-bar:nth-of-type(2) {
-    top: 1px!important;
-}
-.navbar-toggler.active .icon-bar:nth-of-type(3) {
-  top: -2px;
-  transform: rotate(-45deg);
-}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -7467,16 +7405,6 @@ button.navbar-toggler.active .icon-bar {
 }
 
 
-button.navbar-toggler.active {
-    width: 48px;
-    height: 41px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: stretch;
-    flex-wrap: wrap;
-    align-content: center;
-}
 svg.bd-placeholder-img rect {
     fill: #306e7d;
 }
@@ -7504,43 +7432,3 @@ div#myCarousel {
     opacity: 0.9;
 }
 
-.navbar-toggler.active .icon-bar:nth-of-type(1) {
-    top: 8px;
-    transform: rotate(45deg);
-}
-.navbar-toggler.active .icon-bar:nth-of-type(3) {
-    top: 5px;
-    transform: rotate(-45deg);
-}
-.navbar-dark .navbar-toggler {
-    color: aliceblue;
-    border-color: rgba(255, 255, 255, 0.1);
-    height: 48px;
-    width: 48px!important;
-    display: flex!important;
-    flex-direction: row!important;
-    align-content: center!important;
-    justify-content: center!important;
-    align-items: center!important;
-    flex-wrap: wrap;
-}
-button.navbar-toggler.active {
-    width: 48px;
-    height: 41px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: wrap;
-    align-content: center;
-}
-.navbar-toggler .icon-bar:nth-of-type(3) {
-    top: 0!important;
-    transform: translate(0px, 11px) rotate(-45deg)!important;
-}
-.navbar-toggler .icon-bar:nth-of-type(2) {
-    top: 0px!important;
-}
-span.icon-bar:first-child {
-    margin-top: 5px;
-}
