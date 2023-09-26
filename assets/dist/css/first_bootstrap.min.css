@@ -7395,7 +7395,7 @@ button.navbar-toggler.active .icon-bar {
   height: 2px !important;
   border-radius: 1px !important;
   background: #fff;
-  margin: 4px 0px;
+  margin-bottom: 5px;
 }
 
 .navbar-toggler.active .icon-bar:nth-of-type(1) {
@@ -7511,4 +7511,36 @@ div#myCarousel {
 .navbar-toggler.active .icon-bar:nth-of-type(3) {
     top: 5px;
     transform: rotate(-45deg);
+}
+.navbar-dark .navbar-toggler {
+    color: aliceblue;
+    border-color: rgba(255, 255, 255, 0.1);
+    height: 48px;
+    width: 48px!important;
+    display: flex!important;
+    flex-direction: row!important;
+    align-content: center!important;
+    justify-content: center!important;
+    align-items: center!important;
+    flex-wrap: wrap;
+}
+button.navbar-toggler.active {
+    width: 48px;
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.navbar-toggler .icon-bar:nth-of-type(3) {
+    top: 0!important;
+    transform: translate(0px, 11px) rotate(-45deg)!important;
+}
+.navbar-toggler .icon-bar:nth-of-type(2) {
+    top: 0px!important;
+}
+span.icon-bar:first-child {
+    margin-top: 5px;
 }
